@@ -11,10 +11,10 @@ export default function AuthLayout({children}: Readonly<{  children: React.React
      <div className="h-full flex flex-col items-center justify-center">
          <div className="flex items-center justify-center  flex-col mb-4">
              <Image  src="/logo.png"
-                     width={80}
+                     width={70}
                      height={180}
                      alt="Picture of the author"/>
-             <h1 className={`text-3xl font-semibold tracking-wide text-[#FF0707] ${myFont.className} `} >Streampi </h1>
+             <h1 className={`text-3xl font-semibold tracking-wide text-white ${myFont.className} `} >STREAMPI </h1>
 
          </div>
          {children}
