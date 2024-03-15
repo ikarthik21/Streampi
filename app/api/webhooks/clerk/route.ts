@@ -24,16 +24,10 @@ export async function POST(req: Request) {
             status: 400
         })
     }
-
-
     const payload = await req.json()
     const body = JSON.stringify(payload);
-
-
     const wh = new Webhook(WEBHOOK_SECRET);
-
     let evt: WebhookEvent
-
 
     try {
         evt = wh.verify(body, {

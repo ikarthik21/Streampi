@@ -1,7 +1,5 @@
 import Image from 'next/image'
-import localFont from 'next/font/local'
-
-const myFont = localFont({ src: '../../public/fonts/Protest_Revolution/ProtestRevolution-Regular.ttf' })
+import {protest}  from  '@/components/fonts/fonts'
 
 
 
@@ -14,7 +12,7 @@ export default function AuthLayout({children}: Readonly<{  children: React.React
                      width={70}
                      height={180}
                      alt="Picture of the author"/>
-             <h1 className={`text-3xl font-semibold tracking-wide text-white ${myFont.className} `} >STREAMPI </h1>
+             <h1 className={`text-3xl font-semibold tracking-wide text-white ${protest.className} `} >STREAMPI </h1>
 
          </div>
          {children}
