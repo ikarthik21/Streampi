@@ -13,7 +13,7 @@ html,
 body,
 :root {
     height: 100%;
-    background-color: #171c26;
+    background-color: #0e0e10;
     scroll-behavior: smooth;
 }
 
@@ -23,12 +23,12 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #252f50;
+    background-color: #1f1f23;
     border-radius: 25px;
   }
   
   body::-webkit-scrollbar-thumb:hover {
  
-    background-color: #283f4b;
+    background-color: #262629;
   
   }

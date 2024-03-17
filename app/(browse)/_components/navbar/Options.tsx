@@ -1,9 +1,10 @@
+import { UserButton } from '@clerk/nextjs';
 import React from 'react';
 
 const Options = () => {
     return (
-        <div>
-            <h1>Options</h1>
+        <div>        
+            <UserButton afterSignOutUrl="/"  />
         </div>
     );
 };

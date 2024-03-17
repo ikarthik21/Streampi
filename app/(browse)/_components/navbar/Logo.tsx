@@ -9,10 +9,10 @@ const Logo = () => {
             <div className="flex items-center justify-center  flex-col">
                 <div className="flex items-center justify-between" >
                 <Image src="/logo.png"
-                       width={40}
-                       height={40}
+                       width={30}
+                       height={30}
                        alt="Logo"/>
-                <h1 className={`text-xl ml-2 font-semibold tracking-wide text-white ${protest.className} `}>STREAMPI </h1>
+                <h1 className={`text-xl md:text-2xl ml-2 font-semibold tracking-wide text-white ${protest.className} `}>STREAMPI </h1>
                 </div>
 
             </div>
